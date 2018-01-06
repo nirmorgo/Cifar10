@@ -1,0 +1,23 @@
+# General parameters
+random_seed = None      # Relavant for other blocks
+val_size = 0.2
+test_size = 0
+
+# Paths
+input_data_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/train/'
+labels_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/trainLabels.csv'
+test_data_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/test/'
+temp_folder = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/tmp/'
+last_best_weights_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/tmp/model_files/best_weights/model'
+pre-traind_model_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/saves/xxxxxx/model'
+project_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/'
+
+# Model parameters
+verbose = True
+learning_rate = 3e-5
+iter_num = 3000
+batch_size = 256
+keep_ratio = 0.95    # Used for dropout layers
+WD = 0.0003    # Weight Decay
+
+
