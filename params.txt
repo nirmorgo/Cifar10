@@ -4,9 +4,9 @@ val_size = 0.2
 test_size = 0
 
 # Paths
-input_data_path = 'Project_path/data/train/'
-labels_path = 'Project_path/trainLabels.csv'
-test_data_path = 'Project_path/test/'
+input_data_path = 'Project_path/data_/train/'
+labels_path = 'Project_path/data_/trainLabels.csv'
+test_data_path = 'Project_path/data_/test/'
 temp_folder = 'Project_path/tmp/'
 last_best_weights_path = 'Project_path/tmp/model_files/best_weights/model'
 pre-traind_model_path = 'Project_path/saves/xxxxxx/model'
