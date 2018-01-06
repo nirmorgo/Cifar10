@@ -6,7 +6,7 @@ from scipy import misc
 import numpy as np
 import pandas as pd
 
-params = read_params('C:/Users/Nir/Documents/Python/kaggle/cifar10/params.txt')
+params = read_params('Project_path/params.txt')
 data = Cifar10_Data()
 data.load_and_split(params['input_data_path'],params['labels_path'])
 #xtrain=data.train_idxs
@@ -17,8 +17,6 @@ cls = Classifier(params, data.Ndims, net=convnet2)
 cls.train(data, epochs=10, batch_size=128)
 #cls.load_weights_from_checkpoint(params['pre-traind_model_path'])
 
-
-#tensorboard --logdir=run:\Users\Nir\Documents\Python\kaggle\cifar10\tmp\tensorflow_logs
 #%% Get The Test Data And Classify It
 test_path = params['test_data_path']
 labels=[]
