@@ -4,13 +4,12 @@ val_size = 0.2
 test_size = 0
 
 # Paths
-input_data_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/train/'
-labels_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/trainLabels.csv'
-test_data_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/data/test/'
-temp_folder = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/tmp/'
-last_best_weights_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/tmp/model_files/best_weights/model'
-pre-traind_model_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/saves/xxxxxx/model'
-project_path = 'C:/Users/Nir/Documents/Python/kaggle/cifar10/'
+input_data_path = 'Project_path/data/train/'
+labels_path = 'Project_path/trainLabels.csv'
+test_data_path = 'Project_path/test/'
+temp_folder = 'Project_path/tmp/'
+last_best_weights_path = 'Project_path/tmp/model_files/best_weights/model'
+pre-traind_model_path = 'Project_path/saves/xxxxxx/model'
 
 # Model parameters
 verbose = True
